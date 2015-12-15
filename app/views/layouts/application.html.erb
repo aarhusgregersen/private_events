@@ -8,7 +8,13 @@
 </head>
 <body>
 
-<%= yield %>
+<div class="container">
+	<%= render 'layouts/header' %>
+	<%= yield %>
+	<footer>
+		<p>An event planning application by <a href="http://mgregersen.dk">Martin Gregersen</a></p>
+	</footer>
+</div>
 
 </body>
 </html>
